@@ -1,28 +1,50 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <main id="app">
+    <exchange-header></exchange-header>
+    <div>
+      <router-view
+        class="container px-5 sm:px-20 py-20 mt-15 flex justify-center"
+      ></router-view>
+    </div>
+  </main>
 </template>
 
+<!--
+******************************
+javaScript y export principal
+******************************
+-->
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import exchangeHeader from "@/components/exchangeHeader.vue";
+import "@/assets/css/style.css";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    exchangeHeader,
   },
+
+  methods: {},
 };
 </script>
 
-<style>
+<!-- 
+**********************
+Style css App
+**********************
+-->
+<style scoped>
+div {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
