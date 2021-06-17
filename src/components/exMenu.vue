@@ -16,12 +16,12 @@
       </router-link>
 
       <li class="nav__list__item">
-        <a target="_blank" href="https://github.com/MayderC">Repo</a>
+        <a target="_blank" href="https://github.com/MayderC/exchange">Repo</a>
         <div class="nav__list__anim"></div>
       </li>
 
       <li class="nav__list__item">
-        <a target="_blank" href="">@MayderC</a>
+        <a target="_blank" href="https://mayder.codes/">@MayderC</a>
         <div class="nav__list__anim"></div>
       </li>
     </ul>

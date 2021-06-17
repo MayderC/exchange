@@ -10,7 +10,9 @@
         de Platzi sobre vuejs.
       </p>
       <div class="about__body-end text-2xl underline text-blue-500">
-        <a target="_blank" href="https://github.com/MayderC">Repositorio</a>
+        <a target="_blank" href="https://github.com/MayderC/exchange"
+          >Repositorio</a
+        >
         <a target="_blank" href="https://mayder.codes/">@MayderC</a>
       </div>
     </div>
