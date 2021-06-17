@@ -16,7 +16,6 @@ javaScript y export principal
 -->
 <script>
 import exchangeHeader from "@/components/exchangeHeader.vue";
-import "@/assets/css/style.css";
 export default {
   name: "App",
   components: {
