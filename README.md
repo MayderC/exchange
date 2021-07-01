@@ -1,5 +1,5 @@
 # exchange
-https://mayexchange.netlify.app/
+https://mayder-exchange-app.netlify.app/
 
 ## Project setup
 ```
